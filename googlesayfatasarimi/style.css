@@ -1,0 +1,127 @@
+/* Google Logo */ 
+.img {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 40%;
+    top: 25%;
+}
+
+/* End */
+
+.container {
+    position:absolute;
+    left: 20%;
+    top: 40%;
+}
+
+/* Start First Box */
+
+.first-box {
+    background-color: rgba(203, 203, 203, 0.505);
+    text-align: center;
+    width: 953px;
+    margin: 2px;
+}
+
+.first-box p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.searchbox {
+    width: 300px;
+    position: absolute;
+    left: 34%;
+    top: 21%;
+}
+
+.btn {
+    margin: 10px;
+}
+
+/* End First Box */
+
+/* Start Second Box */
+.second-box {
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px;
+}
+
+.box1 {
+    background-color: #7de5db;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+}
+
+.box1 a {
+    position: relative;
+    font-size: 15px;
+    left: 40%;
+    top: 6%;
+    margin: 1px;
+}
+
+.box2 {
+   background-color: #71ccc2;
+   flex-direction: column;
+   width: 250px;
+   height: 70px; 
+}
+
+.box2 a {
+    position: relative;
+    font-size: 14px;
+    left: 25%;
+}
+
+.box3 {
+    background-color: #62b3aa;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+}
+
+.box3 p {
+    position: relative;
+    font-size: 13px;
+    left: 35%;
+    bottom: 14px;
+}
+ 
+.input {
+    width: 200px;
+    height: 12px;
+    position: relative;
+    left: 17%;
+    bottom: 25px;
+}
+
+.btn-subscribe {
+    position: relative;
+    width: 80px;
+    left: 17%;
+    bottom: 25px;
+}
+
+.box3 a {
+    position: relative;
+    left: 42%;
+    bottom: 63%;
+}
+
+/* End Second Box */
+
+/* Start Footer */
+
+.footer {
+    position:absolute;
+    font-size: 14px;
+    left: 50%;
+    top: 60%;
+}
+
+/* End... */

@@ -1,0 +1,159 @@
+body {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+}
+
+.right-nav a {
+    color: #404040db;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    left: 14px;
+    padding: 10px;
+}
+
+.left-nav {
+    position: relative;
+    left: 75%;
+}
+
+.left-nav a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 7px;
+}
+
+.left-nav img {
+    width: 25px;
+    position: relative;
+    top: 17%;
+}
+
+.left-nav button {
+    width: 72px;
+    height: 32px;
+    margin-left: 9px;
+    background-color: #4285f4;
+    color: white;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    outline: none;
+    border-radius: 2px;
+}
+
+.container {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    display: block;
+}
+
+.container img {
+    height: 95px;
+    aspect-ratio: auto 272 / 92;
+    width: 275px;
+}
+
+.container input {
+    position: absolute;
+    right: 35%;
+    top: 8rem;
+    background-color: white;
+    width: 475px;
+    height: 42px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1.4px;
+    border-color: rgba(199, 201, 203, 0.925);
+}
+
+.container .voicelogo {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 8.7rem;
+    right: 13rem;
+}
+
+.container i {
+    position: absolute;
+    top: 9rem;
+    right: 40rem;
+    width: 20px;
+    height: 20px;
+    color:  #9AA0A6;
+    font-size: small;
+}
+
+.container a {
+    position: relative;
+    display: inline;
+    top: 8rem;
+    right: 18rem;
+    margin: 7px;
+    padding: 13px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.634);
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    text-decoration: none;
+}
+.footer {
+    margin-left: -8px;
+    margin-right: -8px;
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    width: 100%;
+    height: 2.9rem;
+    background-color: #e6e6e6;
+}
+
+
+.footer-nav-right {
+ display: inline;
+ margin: 15px;
+ position: relative;
+ top: 10px;
+} 
+
+.footer-nav-right a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    margin: 10px;
+    font-size: 14px;
+    color:#5f6367;
+}
+
+.footer-nav-left {
+    display: inline;
+    margin: 15px;
+    position: relative;
+    top: 15px;
+}
+
+.footer-nav-left a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    margin: 10px;
+    position: relative;
+    left: 58%;
+    font-size: 14px;
+    color: #5f6367;
+}
+
+
+
+
+
+
+

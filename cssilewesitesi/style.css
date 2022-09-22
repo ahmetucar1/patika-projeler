@@ -1,0 +1,90 @@
+body {
+    min-height: 2200px;
+    background-image: linear-gradient(white, aqua);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:rgba(245, 66, 1, 0.946);
+    text-decoration: overline;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    margin: 18px;
+    color: chocolate;
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.737);
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    position: relative; 
+    margin:auto;
+    margin-top: 50px;
+}
+
+.about-title {
+    margin-top: 10px;
+    color: chocolate;
+}
+
+.about-text {
+    color:chocolate
+}
+
+.galeri {
+    background-color: rgba(255, 255, 255, 0.737);
+    width: 900px;
+    height: 2100px;
+    text-align: center;
+    position: relative; 
+    margin:auto;
+    margin-top: 50px;
+}
+
+.atlar {
+    width: 600px;
+}
+
+.at-title {
+    margin-right: 520px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+ 
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+ 
+article {
+    border-radius: 5px;
+    padding: 20px;
+}
